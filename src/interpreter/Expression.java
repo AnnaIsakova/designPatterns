@@ -1,4 +1,6 @@
 package interpreter;
 
-public class Expression {
+public interface Expression {
+
+    boolean interpret(String context);
 }
